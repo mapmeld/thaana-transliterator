@@ -1,6 +1,6 @@
 {
   "name": "thaana",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transliterate Divehi written in Thaana letters into Latin alphabet",
   "main": "index.js",
   "scripts": {
