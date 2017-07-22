@@ -1,14 +1,18 @@
 Thaana Transliterator JS
 ============================
 
-Converts Thaana text to Latin transliterations.
+Transliterates text in (Divehi language / Thaana script, from the Maldives) to Latin alphabet.
 
 Based on this PHP code: https://github.com/naxeem/thaana-transliterator
+
+## Install from NPM
+
+```npm install thaana --save```
 
 ## Usage
 
 ```javascript
-transliterator = require('thaana');
+const transliterator = require('thaana');
 transliterator('ހުރިހާ އިންސާނުން ވެސް އުފަންވަނީ، ދަރަޖައާއި ޙައްޤުތަކުގައި މިނިވަންކަމާއި ހަމަހަމަކަން ލިބިގެންވާ ބައެއްގެ ގޮތުގައެވެ. އެމީހުންނަށް ހެޔޮވިސްނުމާއި، ހެޔޮ ބުއްދީގެ ބާރު ލިބިގެންވެއެވެ. އަދި އެމީހުން އެކަކު އަނެކަކާ މެދު މުޢާމަލާތް ކުރަންވަނީ، އުޚުއްވަތްތެރި ކަމުގެ ރޫޙެއްގައެވެ.');
 > "Hurihaa insaanun ves ufanvanee, dharajaaai hahquthakugai minivankamaai hamahamakan libigenvaa baehge gothugaeve. Emeehunnah heyovisnumaai, heyo buhdheege baaru libigenveeve. Adhi emeehun ekaku anekakaa medhu muaamalaai kuranvanee, ukhuhvaitheri kamuge roohehgaeve."
 ```
@@ -16,4 +20,4 @@ transliterator('ހުރިހާ އިންސާނުން ވެސް އުފަންވަނީ�
 ## Contributing
 Anyone is welcome to improve this.
 
-GPL-2.0 license
+GPL-2.0 license (same as PHP source)
