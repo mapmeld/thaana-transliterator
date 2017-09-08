@@ -7,6 +7,15 @@ Based on this PHP code: https://github.com/naxeem/thaana-transliterator
 
 ## Install from NPM
 
+#### Command line tool
+
+```
+npm install thaana -g
+thaana-transliterator filename.txt
+```
+
+#### Module
+
 ```npm install thaana --save```
 
 ## Usage
